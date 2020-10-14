@@ -26,9 +26,8 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
-
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+        <Helmet pageTitle="Maldonado Training" />
+            <HeaderThree homeLink="/" logo="dark" color="color-black"/>
             {/* Start Slider Area   */}
             <div id="home" className="fix">
                 <div className="slider-wrapper">
@@ -40,14 +39,14 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
+                                            <h1 className="title">Hola soy Carlos Maldonado <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
+                                                <span> Profesor de educacion Fisica.</span>
+                                                <span> Personal Trainer.</span>
+                                                <span> Asesor Fisico.</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in USA.</h2>
+                                            <h2>Buenos Aires - Argentina.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
