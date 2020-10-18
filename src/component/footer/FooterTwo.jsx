@@ -1,11 +1,9 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram ,FaFacebookF } from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/solracs2013'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/maldonadotraining/?hl=es-la'},
 ]
 
 const FooterTwo = () => {
@@ -16,7 +14,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/home-one">
+                                <a href="https://www.instagram.com/caribeit/?hl=es-la">
                                     <img src="/assets/images/logo/logo.png" alt="Logo images"/>
                                 </a>
                             </div>
@@ -33,8 +31,10 @@ const FooterTwo = () => {
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
-                            <div className="text">
-                                <p>Copyright © 2020 Rainbow-Themes. All Rights Reserved.</p>
+                            <div className="text text-center">
+                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la">Powered by CaribeIT.</a></p>
+                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la">"Tus ideas y nuestro talento".</a></p>
+                                <p>Copyright © 2020. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>
