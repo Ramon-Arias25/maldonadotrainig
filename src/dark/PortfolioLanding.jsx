@@ -48,7 +48,7 @@ const PortfolioLanding = () => {
             {/* Start Slider Area   */}
             <div id="home" className="fix">
                 <div className="slider-wrapper">
-                    <div className="slider-activation slider-startup">
+                    <div className="slider-activation slider-startup ">
                         <Slider className="rn-slick-dot dot-light" {...slideSlick}>
                             {SlideList.map((value, index) => (
                                 // Start Single Slider 
@@ -75,16 +75,26 @@ const PortfolioLanding = () => {
             {/* Start mission Area */}
             <div id="mission" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
-                    <div className="container">
+                    <div className="container bg_image--mission">
                         <div className="row align-items-end">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <h2>Mí Misión</h2>
                                     <p>Desde aqui quiero aportarte mi asesoria profesional, para que seas capaz de mejorar tu aspecto fisico y emocional a través de la creación de nuevos hábitos que te garantizan un desarrollo integral completo.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End mission Area */}
+            {/* Start importance Area */}
+            <div id="importance" className="fix">
+                <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
+                    <div className="container bg_image--importance">
+                        <div className="row align-items-end">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                <br></br>
-                                <br></br>
                                     <h2>Importancia</h2>
                                     <p>El Beneficio de tener un entrenador personal.</p>
                                     <p>El Personal Trainer, es ese puente que te ayudará a hacer realidad ese cambio fisico que tanto quieres; a través de una planificación bien elaborada en base a tus objetivos y requerimientos.</p>
@@ -94,8 +104,7 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
-            {/* End mission Area */}
-
+            {/* End importance Area */}
             {/* Start About Area */}
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
@@ -103,17 +112,17 @@ const PortfolioLanding = () => {
                         <div className="container">
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
-                                    </div>
-                                </div>
-                                <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{title}</h2>
                                             <p className="description">{description}</p>
                                             <p className="description">{subdescription}</p>
                                         </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-7">
+                                    <div className="thumbnail">
+                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
                                     </div>
                                 </div>
                             </div>
@@ -128,13 +137,13 @@ const PortfolioLanding = () => {
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12">
+                            {/* <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">BIENVENIDOS</h2>
                                     <p>Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
                                     <p>¡Ya que al mejorar esta capacidad, mejorariamos todas las demás!</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="row creative-service">
                             <div className="col-lg-12">

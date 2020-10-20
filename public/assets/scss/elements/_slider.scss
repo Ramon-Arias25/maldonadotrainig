@@ -117,6 +117,7 @@ Slider Default Style
                 padding-top: 160px;
                 padding-bottom: 160px;
                 min-height: auto;
+                height: 100vh;
             }
             @media #{$lg-layout} {
                 min-height: auto;
@@ -320,6 +321,7 @@ Slider Default Style
         }
     }
 }
+
 .slider-wrapper {
     &.color-white{
         .inner{

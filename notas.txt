@@ -1,0 +1,7 @@
+https://maldonadotraining.herokuapp.com/#mission
+home
+automatizar el desplazamiento, 
+copy en blanco vivo 
+y normalizar el 
+tamaño de las imagenes al alto de 
+la vista

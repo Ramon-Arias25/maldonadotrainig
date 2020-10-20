@@ -14,9 +14,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="https://www.instagram.com/caribeit/?hl=es-la">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
-                                </a>
+                                <p>Copyright © 2020. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +32,6 @@ const FooterTwo = () => {
                             <div className="text text-center">
                                 <p><a href="https://www.instagram.com/caribeit/?hl=es-la">Powered by CaribeIT.</a></p>
                                 <p><a href="https://www.instagram.com/caribeit/?hl=es-la">"Tus ideas y nuestro talento".</a></p>
-                                <p>Copyright © 2020. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>

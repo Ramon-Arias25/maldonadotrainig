@@ -8,7 +8,7 @@ const PrecioList = [
         nutricion: '1 cita nutricional con sus respectiva medición antropométrica',
         kinesiologo: '1 sesión kinesiológica',
         bebida: '1 bebida isotonica de 500cc por sesión de entrenamiento',
-        whatsapp:'https://api.whatsapp.com/send?phone=+541123742226&text=carlos%20me%20interesa%20el%20plan%20tranqui%20como%20continuamos?'
+        whatsapp:'https://clck.ru/RVUKN'
     },
     {
         title: 'MANIJA',
@@ -17,7 +17,7 @@ const PrecioList = [
         nutricion: '1 cita nutricional con sus respectiva medición antropométrica',
         kinesiologo: '1 sesión kinesiológica',
         bebida: '1 bebida isotonica de 500cc por sesión de entrenamiento',
-        whatsapp:'https://api.whatsapp.com/send?phone=+541123742226&text=carlos%20me%20interesa%20el%20plan%20manija%20como%20continuamos?'
+        whatsapp:'https://clck.ru/RVUL9'
     },
     {
         title: 'FULL',
@@ -26,7 +26,7 @@ const PrecioList = [
         nutricion: '1 cita nutricional con sus respectiva medición antropométrica',
         kinesiologo: '1 sesión kinesiológica',
         bebida: '1 bebida isotonica de 500cc por sesión de entrenamiento',
-        whatsapp:'https://api.whatsapp.com/send?phone=+541123742226&text=carlos%20me%20interesa%20el%20plan%20Full%20como%20continuamos?'
+        whatsapp:'https://clck.ru/RVUML'
     }
 ]
 
@@ -41,7 +41,7 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href={val.whatsapp}>
+                            <a href={val.whatsapp}  target= "blank">
                                 <div className="service service__style--2">
                                     <div className="content">
                                         <h1 className="title text-center">{val.title}</h1>

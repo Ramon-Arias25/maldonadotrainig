@@ -17,8 +17,6 @@
     .service-white .service__style--1 .content h4.title{
         color: #ffffff;
     }
-
-
     
     .bg_image--3,
     .bg_image--1 ,
@@ -35,6 +33,24 @@
     .footer-right {
         background: #101010;
     }
+    .bg_color--5{
+        padding-bottom: 0px;
+    }
+    .bg_image--mission,
+    .bg_image--importance{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        
+    }
+    .bg_image--mission{
+        background-image: url("/assets/images/bg/bg-image-20.jpg") !important;
+    }
+    .bg_image--importance{
+        background-image: url("/assets/images/bg/bg-image-21.jpg") !important;
+    }
+
     ul.brand-style-2 img {
         filter: invert(1);
     }
