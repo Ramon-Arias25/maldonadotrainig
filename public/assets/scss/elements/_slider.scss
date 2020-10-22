@@ -36,7 +36,7 @@ Slider Default Style
 ------------------------*/
 .slide {
     .inner {
-        padding-top: 100px;
+        padding-right: 10%;
         @media #{$sm-layout} {
             padding-top: 70px;
         }
@@ -79,7 +79,7 @@ Slider Default Style
     }
     &.slide-style-1 {
         .inner {
-            padding-top: 100px;
+            padding-right: 70px;
             @media #{$sm-layout} {
                 padding-top: 70px;
             }
@@ -178,7 +178,7 @@ Slider Default Style
                 padding-top: 30px;
             }
             > span {
-                color: #fff;
+                color: #ffffff;
                 font-size: 15px;
                 text-transform: uppercase;
                 letter-spacing: 4px;
@@ -214,13 +214,16 @@ Slider Default Style
                     line-height: 40px;
                     margin: 0;
                     padding: 0 16%;
-                    font-weight: 300;
+                    font-weight: 800;
                     @media #{$sm-layout} {
                         padding: 0;
                     }
                     @media #{$md-layout} {
                         padding: 0 10%;
                     }
+                }
+                &.subdescription {
+                    padding-left: 20%;
                 }
             }
             .slide-btn {
@@ -257,7 +260,7 @@ Slider Default Style
             .inner {
                 p {
                     &.description {
-                        color: #fff;
+                        color: #ffffff;
                         opacity: 0.7;
                     }
                 }
@@ -478,7 +481,7 @@ Personal Portfolio
                 img {
                     border-radius: 100%;
                     padding: 0;
-                    border: 14px solid #fff;
+                    border: 14px solid #ffffff;
                     width: 394px;
                     height: 394px;
                     box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 20px 40px rgba(255,255,255,0.15);
@@ -504,8 +507,8 @@ Personal Portfolio
 
 .slider-digital-agency {
     a.rn-button-style--2 {
-        color: #fff;
-        border-color: #fff;
+        color: #ffffff;
+        border-color: #ffffff;
     }
 }
 

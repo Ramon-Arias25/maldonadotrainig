@@ -101,6 +101,9 @@ export const slideSlick = {
     arrows: true,
     fade: true,
     easing: "fade",
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: false
 };
 

@@ -30,7 +30,7 @@ const SlideList = [
         description: '. . . Y DISFRUTANDO DEL PROCESO PARA LOGRARLO!!',    
     },
     {
-        textPosition: 'text-left',
+        textPosition: 'text-center',
         bgImage: 'bg_image--19',
         description: '"CUANDO QUIERES ALGO CON MUCHA INTENSIDAD, NINGUN SACRIFICIO ES DEMASIADO GRANDE"',
         subdescription: ' - Rafael Nadal',
@@ -58,7 +58,7 @@ const PortfolioLanding = () => {
                                             <div className="col-lg-12">
                                                 <div className={`inner ${value.textPosition}`}>
                                                     {value.description ? <p className="description">{value.description}</p> : ''}
-                                                    {value.subdescription ? <p className="description">{value.subdescription}</p> : ''}
+                                                    {value.subdescription ? <p className="description subdescription text-left !important">{value.subdescription}</p> : ''}
                                                 </div>
                                             </div>
                                         </div>
