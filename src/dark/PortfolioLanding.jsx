@@ -122,7 +122,7 @@ const PortfolioLanding = () => {
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
+                                        <img className="w-100" src="/assets/images/about/about-8.webp" alt="About Images" />
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ const PortfolioLanding = () => {
 
             {/* Start Service Area  */}
             <div id="pricing" className="fix">
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
+                <div className="service-area creative-service-wrapper ptb--60 bg_color--5" >
                     <div className="container">
                         <div className="row">
                             {/* <div className="col-lg-12">

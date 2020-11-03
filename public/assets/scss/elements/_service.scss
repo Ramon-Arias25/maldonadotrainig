@@ -31,16 +31,17 @@
         .content {
             h4 {
                 &.title {
-                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 0px;
                     font-weight: 400;
                     font-size: 24px;
                     @media #{$sm-layout} {
-                        margin-bottom: 12px;
+                        margin-bottom: 0px;
                         font-weight: 400;
                         font-size: 20px;
                     }
                     @media #{$large-mobile} {
-                        margin-bottom: 9px;
+                        margin-bottom: 0px;
                         font-size: 18px;
                     }
                     
@@ -52,6 +53,7 @@
             }
         }
     }
+    
     &.service__style--2 {
         padding: 30px 35px;
         @extend %transition;
@@ -108,19 +110,19 @@
            }
         }
         .content {
-            h3 {
+            h4 {
                 &.title {
-                    margin-bottom: 19px;
-                    font-weight: 500;
+                    margin-bottom: 0px;
+                    font-weight: 700;
                     @extend %transition;
                     @media #{$laptop-device} {
-                        font-size: 19px;
+                        font-size: 40px;
                     }
                     @media #{$sm-layout} {
                         font-size: 20px;
                     }
                     @media #{$md-layout} {
-                        margin-bottom: 8px;
+                        margin-bottom: 0px;
                     }
                     @media #{$large-mobile} {
                         color: #ffffff;
@@ -154,7 +156,7 @@
                 color: #ffffff;
             }
             .content{
-                h3 {
+                h4 {
                     &.title{
                         @extend %textwhite;        
                     }
@@ -163,6 +165,10 @@
                     @extend %textwhite;  
                 }
             }
+            .sale-off{
+                color: #ffffff !important;
+            }
+            
         }
 
         &.service-left-align {
@@ -173,7 +179,36 @@
             }
         }
     }
-    
+    .sale-off{
+        color: #ff0000 !important;
+    }
+}
+.strikethrough {
+    position: relative;
+}
+ 
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 5px solid;
+    border-color: #ff0000 ;
+     
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+.subservices{
+    h3{
+        margin-bottom: 0px;
+    }
+    p{
+        margin: 0px;
+    }
 }
 
 /* ---------------------------
@@ -186,8 +221,8 @@
         }
     }
     .content{
-        h3 {
-            font-size: 19px;
+        h4 {
+            font-size: 40px;
             margin-top: 30px;
             margin-bottom: 10px;
             font-weight: 600;
@@ -203,19 +238,22 @@
             font-size: 15px;
             line-height: 24px;
         }
-        a {
-
-        }
     }
 }
-
-
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, dl, dd, menu, ol, ul, table, caption, hr {
+    margin: 0;
+    margin-bottom: 0px !important;
+}
+.ptb--60{
+    padding: 60px 0;
+}
 
 .text-center ,
 .text-left {
     .service {
         &.service__style--2 {
-            padding: 60px 45px;
+            margin-bottom: 0px !important;
+            padding: 0px 45px;
             @media #{$sm-layout} {
                 padding: 30px 14px;
             }
@@ -257,23 +295,23 @@
         z-index: 2;
         padding: 40px 40px;
         background: rgba(255,255,255, 0.3);
-        margin-top: 40px;
+        margin-top: 20px;
         overflow: hidden;
         border: 2px solid transparent;
         
         @media #{$sm-layout} {
             padding: 30px 20px;
             background: transparent;
-            margin-top: 30px;
+            margin-top: 10px;
         }
         
         .icon {
             color: #ffffff;
         }
         .content {
-            h3 {
+            h4 {
                 &.title {
-                    font-size: 19px;
+                    font-size: 40px;
                     color: #ffffff;
                 }
             }
@@ -303,6 +341,7 @@
                 &.service__style--2 {
                     margin-top: 30px;
                     background: #f6f6f6;
+                    min-width: 400px;
                 }
             }
         }
