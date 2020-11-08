@@ -52,7 +52,7 @@ class ServiceThree extends Component{
                 </div>
                 <div className="service service__style--2 subservices">
                     <div className="content">
-                    <h3 className="title text-center">Todos los planes incluiyen</h3>
+                    <h3 className="title text-center">Todos los planes incluiyen    </h3>
                         <p><strong> 1 </strong> Cita nutricional con sus respectiva medición antropométrica</p>
                         <p><strong> 1 </strong> Sesión kinesiológica</p>
                         <p><strong> 1 </strong> Bebida isotonica de 500cc por sesión de entrenamiento</p>
