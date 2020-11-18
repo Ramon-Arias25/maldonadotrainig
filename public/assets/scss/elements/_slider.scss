@@ -120,13 +120,13 @@ Slider Default Style
                 height: 100vh;
             }
             @media #{$lg-layout} {
-                min-height: auto;
+                min-height: 100vh;
             }
             @media #{$md-layout} {
-                min-height: auto;
+                min-height: 100vh;
             }
             @media #{$sm-layout} {
-                min-height: auto;
+                min-height: 100vh;
             }
         }
 
