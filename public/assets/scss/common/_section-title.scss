@@ -3,7 +3,7 @@
 ====================*/
 
 .section-title {
-    margin-top: -20px;
+    margin-top: -7vh;
     h2{
         &.title{
             font-size: 60px;
@@ -13,7 +13,8 @@
                 font-size: 50px;
             }
             @media #{$sm-layout} {
-                font-size: 36px;
+                margin-top: 0px;
+                font-size: 20px;
                 margin-bottom: 7px;
             }
         }

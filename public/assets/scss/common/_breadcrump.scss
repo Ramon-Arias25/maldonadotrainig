@@ -4,7 +4,33 @@
 
 @media (min-width: 1200px){
     .container {
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-about {
         max-width: 1260px;
+        margin: auto;
+    }
+}
+@media #{$lg-layout} {
+    .container-about {
+        max-width: 450px;
+        margin: auto;
+    }
+}
+@media #{$md-layout} {
+    .container-about {
+        max-width: 385px;
+        margin: auto;
+    }
+}
+@media #{$sm-layout} {
+    .container-about {
+        max-width: 320px;
+        margin: auto;
     }
 }
 
@@ -46,6 +72,16 @@
             @media #{$sm-layout} {
                 font-size: 40px;
                 line-height: 59px;
+            }
+        }
+    }
+    h3 {
+        &.title {
+            text-transform: uppercase;
+            font-size: 62px;
+            @media #{$sm-layout} {
+                font-size: 30px;
+                line-height: 45px;
             }
         }
     }

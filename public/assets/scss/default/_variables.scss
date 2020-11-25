@@ -73,12 +73,11 @@ $small-mobile: 'only screen and (max-width: 479px)';
 
 @media #{$large-mobile} {
     .container {
-        width: 450px;
+        width: 100%;
     }
 }
-
 @media #{$small-mobile} {
     .container {
-        width: 320px;
+        width: 100%;
     }
 }

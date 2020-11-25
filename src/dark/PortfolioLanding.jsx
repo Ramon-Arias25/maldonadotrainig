@@ -7,6 +7,7 @@ import Helmet from "../component/common/Helmet";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import PrecioList from "../elements/precio/PrecioList";
+import Testimonial from "../elements/testimonial/Testimonial"
 
 const SlideList = [
     {
@@ -27,7 +28,7 @@ const SlideList = [
     {
         textPosition: 'text-center',
         bgImage: 'bg_image--18',
-        description: '. . . Y DISFRUTANDO DEL PROCESO PARA LOGRARLO!!',    
+        description: '. . . Y DISFRUTANDO DEL PROCESO PARA LOGRARLO!!',
     },
     {
         textPosition: 'text-center',
@@ -39,8 +40,9 @@ const SlideList = [
 
 const PortfolioLanding = () => {
     let title = 'Sobre mí',
-        description = 'Hola, me llamo Carlos Maldonado, soy profe de educación fisica y soy de Caracas, Venezuela. Fui atleta de natación y aguas abiertas cuando chico y participe en carreras de calle de 5, 10 y 15k. Tengo más de 10 años de experiencia en el ámbito deportivo y del entrenamiento personalizado. Apasionado del Fútbol y amante del buen café.',
-        subdescription = '¡Pienso que el compromiso es la diferencia entre lo que fue, a lo que puedo ser!';
+        description = 'Hola, me llamo Carlos Maldonado, soy profe de educación física y soy de Caracas, Venezuela.',
+        descriptionS2 = 'Fuí atleta de natación y aguas abiertas cuando chico y participe en carreras de calle de 5, 10 y 15k. Tengo más de 10 años de experiencia en el ámbito deportivo y del entrenamiento personalizado. Apasionado del Fútbol y amante del buen café.',
+        subdescription = '¡Pienso que el compromiso es la diferencia entre lo que fué, a lo que puedo ser!';
     return (
         <div className="active-dark">
             <Helmet pageTitle="Maldonado Training" />
@@ -76,11 +78,11 @@ const PortfolioLanding = () => {
             <div id="mission" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
                     <div className="container bg_image--mission">
-                        <div className="row align-items-end">
+                        <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2>Mí Misión</h2>
-                                    <p>Desde aqui quiero aportarte mi asesoria profesional, para que seas capaz de mejorar tu aspecto fisico y emocional a través de la creación de nuevos hábitos que te garantizan un desarrollo integral completo.</p>
+                                    <h2 className="title">Mí Misión</h2>
+                                    <p>Desde aqui quiero aportarte mi asesoria profesional, para que seas capáz de mejorar tu aspecto físico y emocional a través de la creación de nuevos hábitos que te garantizan un desarrollo integral completo.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,12 +94,11 @@ const PortfolioLanding = () => {
             <div id="importance" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
                     <div className="container bg_image--importance">
-                        <div className="row align-items-end">
+                        <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2>Importancia</h2>
-                                    <p>El Beneficio de tener un entrenador personal.</p>
-                                    <p>El Personal Trainer, es ese puente que te ayudará a hacer realidad ese cambio fisico que tanto quieres; a través de una planificación bien elaborada en base a tus objetivos y requerimientos.</p>
+                                    <h2 className="title">El Beneficio de tener un entrenador personal.</h2>
+                                    <p>El Personal Trainer, es ese puente que te ayudará a hacer realidad ese cambio fisico que tanto quieres; a través de una planificación bien elaborada en base a tus objetivos y requerimientos basicos.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,14 +110,21 @@ const PortfolioLanding = () => {
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
+                        <div className="container-about">
+                            <div className="row row--35 ">
                                 <div className="col-lg-5">
-                                    <div className="about-inner inner">
+                                    <div className="about-inner inner ">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
+                                            <br></br>
+                                            <h2 className="title text-center">{title}</h2>
+                                            <br></br>
+                                            <br></br>
                                             <p className="description">{description}</p>
-                                            <p className="description">{subdescription}</p>
+                                            <br></br>
+                                            <p className="description">{descriptionS2}</p>
+                                            <br></br>
+                                            <br></br>
+                                            <p className="description text-center">{subdescription}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -131,6 +139,20 @@ const PortfolioLanding = () => {
                 </div>
             </div>
             {/* End About Area */}
+
+            {/* Start Testimonial Area */}
+            <div id="testimonial" className="fix">
+                <div className="about-area ptb--120  bg_color--1">
+                    <div className="about-wrapper">
+                        <div className="container ">
+                            <div className="row row--35 align-items-center">
+                                <Testimonial></Testimonial>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End Testimonial Area*/}
 
             {/* Start Service Area  */}
             <div id="pricing" className="fix">
