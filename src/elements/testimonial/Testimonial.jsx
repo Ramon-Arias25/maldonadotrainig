@@ -7,6 +7,9 @@ class Testimonial extends Component {
             <React.Fragment>
                 <div className="row">
                     <div className="col-lg-12">
+                        <h2 className="title-practice">En la practica</h2>
+                        <br></br>
+                        <br></br>
                         <Tabs>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">

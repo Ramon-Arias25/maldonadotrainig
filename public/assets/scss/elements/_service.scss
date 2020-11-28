@@ -210,7 +210,112 @@
         margin: 0px;
     }
 }
-
+.whatsapp {
+  display:block;
+  width:75%;
+  height:80%;
+  bottom:40px;
+  right:40px;
+// background-color:#25d366;
+  color:#ffffff;
+  border-radius:50px;
+  text-align:center;
+  font-size:50px;
+  z-index:100;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.whatsapp-icon {
+  font-size:50px;
+  padding: 0px;
+  color: #ffffff !important;
+  margin: auto;
+}
+.text-price{
+    font-weight: 700;
+    text-align: justify;
+}
+.text-price-end{
+    margin-left: 40px !important;
+}
+h2 {
+    &.end-text {
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+        height: 25vh;
+        margin-top: 25vh; 
+        @media #{$sm-layout} {
+            font-size: 10px;
+            line-height: 50px;
+        }
+    }
+    &.title-practice{
+        text-transform: uppercase;
+        font-size: 60px;
+        text-align: center;
+        @media #{$sm-layout} {
+            font-size: 30px;
+            line-height: 49px;
+        }
+    }
+}
+button,
+a {
+    &.rn-button-style--3 {
+        padding: 5px !important;
+        color: #c6c9d8;
+        font-size: 16px;
+        border-radius:50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 2px solid #b1b4c1;
+        padding: 15px 40px;
+        display: inline-block;
+        font-weight: 500;
+        transition: 0.3s;
+        @media #{$sm-layout} {
+            padding: 9px 25px;
+        }
+        &.rn-btn-dark {
+            border: 2px solid #1f1f25;
+            color: #1f1f25;
+            &:hover {
+                background: #1f1f25;
+                color: #fff;
+            }
+        }
+        &.border-opacity-half{
+            border-color: rgba(31, 31, 37, 0.1);
+        }
+        &.rn-btn-small {
+            padding: 10px 20px;
+        }
+        &.btn-primary--wsp {
+            &:hover {
+                border: 2px solid #25d366;
+                background: #25d366;
+                color: #ffffff;
+            }
+        }
+        &.btn-solid {
+            border: 2px solid $theme-color;
+            background: $theme-color;
+            color: #ffffff;
+        }
+        &.btn-solid {
+            background: $theme-color;
+            color: #ffffff;
+        }
+        &:hover{
+            background: transparent;
+            color: #25d366;
+            box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+    }
+}
 /* ---------------------------
     Standard Service  
 -------------------------------*/

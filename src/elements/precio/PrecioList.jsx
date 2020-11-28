@@ -44,6 +44,9 @@ class ServiceThree extends Component{
                                         <h4 className="title text-center strikethrough" >{val.precioFull}</h4>
                                         <p className="text-center sale-off">25% off</p>
                                         <h2 className="title text-center">{val.precioDescuento}</h2>
+                                        <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp" > Escrbeme para más info
+                                            <i className="fa fa-whatsapp whatsapp-icon"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </a>
@@ -52,10 +55,12 @@ class ServiceThree extends Component{
                 </div>
                 <div className="service service__style--2 subservices">
                     <div className="content">
-                    <h3 className="title text-center">Todos los planes incluiyen    </h3>
-                        <p><strong> 1 </strong> Cita nutricional con sus respectiva medición antropométrica</p>
-                        <p><strong> 1 </strong> Sesión kinesiológica</p>
-                        <p><strong> 1 </strong> Bebida isotonica de 500cc por sesión de entrenamiento</p>
+                    <h3 className="title text-center">Todos los planes incluyen    </h3>
+                        <br></br>
+                        <br></br>
+                        <p className="text-price-end" ><strong> 1 </strong> Cita nutricional con sus respectiva medición antropométrica</p>
+                        <p className="text-price-end" ><strong> 1 </strong> Sesión kinesiológica</p>
+                        <p className="text-price-end" ><strong> 1 </strong> Bebida isotonica de 500cc por sesión de entrenamiento</p>
                     </div>
                 </div>
                 </div>

@@ -159,18 +159,23 @@ const PortfolioLanding = () => {
                 <div className="service-area creative-service-wrapper ptb--60 bg_color--5" >
                     <div className="container">
                         <div className="row">
-                            {/* <div className="col-lg-12">
+                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">BIENVENIDOS</h2>
-                                    <p>Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
+                                    <h2 className="title">PLANES</h2>
+                                    <p className="text-price">Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
+                                    <br></br>
+                                    <br></br>
                                     <p>¡Ya que al mejorar esta capacidad, mejorariamos todas las demás!</p>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                         <div className="row creative-service">
                             <div className="col-lg-12">
                                 <PrecioList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
                             </div>
+                        </div>
+                        <div className="col-lg-12">
+                                <h2 className="end-text">¡No dejes que otro te cuente la historia, sal y escribe la tuya!</h2>
                         </div>
                     </div>
                 </div>
