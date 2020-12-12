@@ -14,11 +14,10 @@ class Testimonial extends Component {
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>Nunca me cope de lleno con ningun deporte en mi vida, pero desde que entreno con carlitos me divierto ademas de conseguir resultados reales</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Carlos Calens </span> - Jubilado</h6>
+                                        <h6><span>DALVA FALCONI</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -26,45 +25,20 @@ class Testimonial extends Component {
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>Admitire que hacer ejercicio no es lo mio, pero ya tengo un par de años entrenando con mi tocayo y e mejorado mi fuerza y movilidad como nunca antes.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Karina Chavéz </span> - Abogada.</h6>
+                                        <h6><span>CARLOS CALENS</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>Tuve una lesion de cadera cuando chica y me impedia realizar algunos movimientos, trabajando de la mano de Carlos hoy tengo una movilidad impecable</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Rodrigo Villalba </span> - Osteopata.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Dalva Falconi </span> - Cirujana.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Juan Errandonea </span> - Auditor.</h6>
+                                        <h6><span>ANA DE ERRANDONEA</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -72,45 +46,20 @@ class Testimonial extends Component {
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>Con Carlitos hemos mejorado mucho la movilidad y fuerza, tras mas de 2 años de trabajo con el seguimos por mas.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Ana de Errandonea</span> - Medico.</h6>
+                                        <h6><span>JUAN ERRANDONEA</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>Conoci a Charly hace unos 2 años, le pedi una rutina de onda y al dia de hoy e mejorado fisicamente como nunca antes, su guia y motivacion son su plus</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Simon Commeignes </span> - Laburante.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Mariana Bodi</span> - Relacionista Publica.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Antonela Forciniti </span> - Contadora.</h6>
+                                        <h6><span>RODRIGO VILLALBA</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -118,11 +67,52 @@ class Testimonial extends Component {
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <p>Es un excelente profesional.</p>
+                                        <p>A Charly lo conoci en un gym, pegamos onda y comenzamos a entrenar, con el me divierto y encima me hace llegar para el verano</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Susana d' Angelo</span> - Abogada.</h6>
+                                        <h6><span>MARIANA BODI</span></h6>
+                                    </div>
+                                </div>
+                            </TabPanel>
+                            <TabPanel>
+                                <div className="rn-testimonial-content text-center">
+                                    <div className="inner">
+                                        <p>Que si dietas, que si tal rutina, que si cardio o pesas, antes de conocer a Charly nada, luego de sus planificaciones de 10</p>
+                                    </div>
+                                    <div className="author-info">
+                                        <h6><span>DYLAN GUELMAN</span></h6>
+                                    </div>
+                                </div>
+                            </TabPanel>
+
+                            <TabPanel>
+                                <div className="rn-testimonial-content text-center">
+                                    <div className="inner">
+                                        <p>Conoci a Charly por referencia de un amigo, tome una clase de prueba con el y desde entonces me cope con sus planificaciones y manera de entrenar </p>
+                                    </div>
+                                    <div className="author-info">
+                                        <h6><span>ROI CORRADO</span></h6>
+                                    </div>
+                                </div>
+                            </TabPanel>
+                            <TabPanel>
+                                <div className="rn-testimonial-content text-center">
+                                    <div className="inner">
+                                        <p>entreno con carlos de hace mas de 2 años y sin duda alguna los mejores resultados los he obtenido bajo su asesoria y planificacion</p>
+                                    </div>
+                                    <div className="author-info">
+                                        <h6><span>KARINA CHAVEZ</span></h6>
+                                    </div>
+                                </div>
+                            </TabPanel>
+
+                            <TabPanel>
+                                <div className="rn-testimonial-content text-center">
+                                    <div className="inner">
+                                        <p>Gracias a la rutina personalizada de Carlos logre mejorar mi fuerza y movilidad ademas de aumentar mi masa corporal en solo 6 meses, es un genio</p>
+                                    </div>
+                                    <div className="author-info">
+                                        <h6><span>ANTONELA FORCINITI</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>
