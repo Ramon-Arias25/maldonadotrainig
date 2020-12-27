@@ -173,7 +173,7 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <h2 className="end-text">¡No dejes que otro te cuente la historia, sal y escribe la tuya!</h2>
+                            <h2 className="end-text">¡No dejes que otro te cuente la historia, salí y escribí la tuya!</h2>
                         </div>
                     </div>
                 </div>
