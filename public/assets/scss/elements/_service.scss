@@ -222,7 +222,7 @@
   text-align:center;
   font-size:50px;
   z-index:100;
-  margin: auto;
+  margin: auto auto;
   padding: 5px;
   margin-bottom: 15px;
 }
@@ -261,6 +261,9 @@ h2 {
             line-height: 49px;
         }
     }
+}
+.reContent{
+    min-height: 300px;
 }
 button,
 a {

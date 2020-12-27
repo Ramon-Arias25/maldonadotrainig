@@ -5,21 +5,33 @@ const PrecioList = [
         title: 'TRANQUI',
         precioFull:'16.667$',
         precioDescuento:'11.400$',
-        frecuencia: '2',
+        frecuencia: '- 2 secciones por semana',
+        incluye0: '- 1 sesión nutricional con medición antropometrica',
+        incluye1: '',
+        incluye2: '',
+        nulo: '',
         whatsapp:'https://clck.ru/RVUKN'
     },
     {
         title: 'MANIJA',
         precioFull:'22.000$',
         precioDescuento:'14.600$',
-        frecuencia: '3',
+        frecuencia: '- 3 secciones por semana',
+        incluye0: '- 1 sesión nutricional con medición antropometrica',
+        incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
+        incluye2: '',
+        nulo: '',
         whatsapp:'https://clck.ru/RVUL9'
     },
     {
         title: 'A FULL',
         precioFull:'27.333$',
         precioDescuento:'17.800$',
-        frecuencia: '4',
+        frecuencia: '- 3 secciones por semana',
+        incluye0: '- 1 sesión nutricional con medición antropometrica',
+        incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
+        incluye2: '- 1 sesión Kinesiólogica',
+        nulo: '',
         whatsapp:'https://clck.ru/RVUML'
     }
 ]
@@ -39,14 +51,22 @@ class ServiceThree extends Component{
                             <a href={val.whatsapp}  target= "blank">
                                 <div className="service service__style--2">
                                     <div className="content">
-                                        <h1 className="title text-center">{val.title}</h1>
-                                        <p className="text-center">{val.frecuencia} Veces por semana</p>
+                                        <div className="reContent">
+                                            <h1 className="title text-center">{val.title}</h1>
+                                            <p className="text-price-end">{val.frecuencia}</p>
+                                            <p className="text-price-end">{val.incluye0}</p>
+                                            <p className="text-price-end">{val.incluye1}</p>
+                                            <p className="text-price-end">{val.incluye2}</p>
+                                        </div>
                                         <h4 className="title text-center strikethrough" >{val.precioFull}</h4>
                                         <p className="text-center sale-off">25% off</p>
                                         <h2 className="title text-center">{val.precioDescuento}</h2>
-                                        <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp" > Escrbeme para más info
-                                            <i className="fa fa-whatsapp whatsapp-icon"></i>
-                                        </a>
+                                        <div className="text-center">
+                                            <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp">
+                                                <span>Escribíme</span>
+                                                <i className="fa fa-whatsapp whatsapp-icon"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -55,12 +75,13 @@ class ServiceThree extends Component{
                 </div>
                 <div className="service service__style--2 subservices">
                     <div className="content">
-                    <h3 className="title text-center">Todos los planes incluyen    </h3>
+                    <h3 className="title text-center">Aclaraciones:</h3>
                         <br></br>
                         <br></br>
-                        <p className="text-price-end" ><strong> 1 </strong> Cita nutricional con sus respectiva medición antropométrica</p>
-                        <p className="text-price-end" ><strong> 1 </strong> Sesión kinesiológica</p>
-                        <p className="text-price-end" ><strong> 1 </strong> Bebida isotonica de 500cc por sesión de entrenamiento</p>
+                        <p className="text-price-end" >Cada sesión de entrenamiento tiene una hora de duración</p>
+                        <p className="text-price-end" >- Con el valor del abono del plan que elijas disfrutaras mes a mes de los beneficios que este incluye.</p>
+                        <p className="text-price-end" >- Los entrenamientos podrán ser realizados en parques al aire libre, en domicilios si las condiciones lo permiten, o en gimnasios*.</p>
+                        <p className="text-price-end" >- En caso de elegir entrenar en un gym consultame para ver opciones.</p>
                     </div>
                 </div>
                 </div>
