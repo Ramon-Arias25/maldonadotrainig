@@ -142,7 +142,7 @@ const PortfolioLanding = () => {
 
             {/* Start Testimonial Area */}
             <div id="testimonial" className="fix">
-                <div className="about-area ptb--120  bg_color--1">
+                <div className="about-area ptb--60  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container ">
                             <div className="row row--35 align-items-center">
@@ -156,15 +156,13 @@ const PortfolioLanding = () => {
 
             {/* Start Service Area  */}
             <div id="pricing" className="fix">
-                <div className="service-area creative-service-wrapper ptb--60 bg_color--5" >
+                <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
+                        <div className="row align-items-end bg-color-opacity">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">PLANES</h2>
                                     <p className="text-price">Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
-                                    <br></br>
-                                    <br></br>
                                     <p>¡Ya que al mejorar esta capacidad, mejorariamos todas las demás!</p>
                                 </div>
                             </div>
@@ -175,7 +173,7 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                                <h2 className="end-text">¡No dejes que otro te cuente la historia, sal y escribe la tuya!</h2>
+                            <h2 className="end-text">¡No dejes que otro te cuente la historia, sal y escribe la tuya!</h2>
                         </div>
                     </div>
                 </div>

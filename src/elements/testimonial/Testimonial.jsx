@@ -8,8 +8,6 @@ class Testimonial extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <h2 className="title-practice">En la practica</h2>
-                        <br></br>
-                        <br></br>
                         <Tabs>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
@@ -105,85 +103,67 @@ class Testimonial extends Component {
                                     </div>
                                 </div>
                             </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Gracias a la rutina personalizada de Carlos logre mejorar mi fuerza y movilidad ademas de aumentar mi masa corporal en solo 6 meses, es un genio</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>ANTONELA FORCINITI</span></h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
                             <TabList className="testimonial-thumb-wrapper">
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/DalvaFalconi.jpeg" alt="Dalva Falconi" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/CarlosCalens.jpeg" alt="Carlos Calens" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/AnaDeErrandonea.jpeg" alt="Ana De Errandonea" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/JuanErrandonea.jpeg" alt="Juan Errandonea" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/RodrigoVillalba.jpeg" alt="Rodrigo Villalba" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-6.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/MarianaBodi.jpeg" alt="Mariana Bodi" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-7.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/DylanGuealman.jpeg" alt="Dylan Guealman" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/RoiCorrado.jpeg" alt="Roi Corrado" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-9.jpg" alt="Testimonial Images" />
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-10.jpg" alt="Testimonial Images" />
+                                            <img src="/assets/images/testimonial/KarinaChavez.jpeg" alt="Karina Chavez" />
                                         </div>
                                     </div>
                                 </Tab>
