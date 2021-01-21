@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Ramon-Arias25.github.io/maldonadotrainig",
+  "homepage": "http://trydo.rainbowit.net",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
