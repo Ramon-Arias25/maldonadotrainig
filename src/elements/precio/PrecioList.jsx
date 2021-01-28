@@ -26,7 +26,7 @@ const PrecioList = [
     {
         title: 'A FULL',
         precioFull:'28.000$',
-        precioDescuento:'18.000$',
+        precioDescuento:'21.000$',
         frecuencia: '- 3 secciones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
@@ -78,7 +78,7 @@ class ServiceThree extends Component{
                     <h3 className="title text-center">Aclaraciones:</h3>
                         <br></br>
                         <br></br>
-                        <p className="text-price-end" >Cada sesión de entrenamiento tiene una hora de duración</p>
+                        <p className="text-price-end" >- Cada sesión de entrenamiento tiene una hora de duración</p>
                         <p className="text-price-end" >- Con el valor del abono del plan que elijas disfrutaras mes a mes de los beneficios que este incluye.</p>
                         <p className="text-price-end" >- Los entrenamientos podrán ser realizados en parques al aire libre, en domicilios si las condiciones lo permiten, o en gimnasios*.</p>
                         <p className="text-price-end" >- En caso de elegir entrenar en un gym consultame para ver opciones.</p>

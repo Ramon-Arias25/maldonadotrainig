@@ -151,6 +151,17 @@
     .thumbnail {
         position: relative;
         z-index: 2;
+        @media #{$lg-layout} {
+            margin-top: 15px;
+        }
+
+        @media #{$md-layout} {
+            margin-top: 15px;
+        }
+
+        @media #{$sm-layout} {
+            margin-top: 15px;
+        }
         img{
             border-radius: 8px;
            

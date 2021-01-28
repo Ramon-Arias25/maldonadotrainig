@@ -107,63 +107,63 @@ class Testimonial extends Component {
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/DalvaFalconi.jpeg" alt="Dalva Falconi" />
+                                            <img src="/assets/images/testimonial/DalvaFalconi.webp" alt="Dalva Falconi" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/CarlosCalens.jpeg" alt="Carlos Calens" />
+                                            <img src="/assets/images/testimonial/CarlosCalens.webp" alt="Carlos Calens" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/AnaDeErrandonea.jpeg" alt="Ana De Errandonea" />
+                                            <img src="/assets/images/testimonial/AnaDeErrandonea.webp" alt="Ana De Errandonea" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/JuanErrandonea.jpeg" alt="Juan Errandonea" />
+                                            <img src="/assets/images/testimonial/JuanErrandonea.webp" alt="Juan Errandonea" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/RodrigoVillalba.jpeg" alt="Rodrigo Villalba" />
+                                            <img src="/assets/images/testimonial/RodrigoVillalba.webp" alt="Rodrigo Villalba" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/MarianaBodi.jpeg" alt="Mariana Bodi" />
+                                            <img src="/assets/images/testimonial/MarianaBodi.webp" alt="Mariana Bodi" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/DylanGuealman.jpeg" alt="Dylan Guealman" />
+                                            <img src="/assets/images/testimonial/DylanGuealman.webp" alt="Dylan Guealman" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/RoiCorrado.jpeg" alt="Roi Corrado" />
+                                            <img src="/assets/images/testimonial/RoiCorrado.webp" alt="Roi Corrado" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/testimonial/KarinaChavez.jpeg" alt="Karina Chavez" />
+                                            <img src="/assets/images/testimonial/KarinaChavez.webp" alt="Karina Chavez" />
                                         </div>
                                     </div>
                                 </Tab>
