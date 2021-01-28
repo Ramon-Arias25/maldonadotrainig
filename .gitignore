@@ -1,4 +1,4 @@
 node_modules/*
-build/
+build/*
 product-backlog.txt
 debug.log
