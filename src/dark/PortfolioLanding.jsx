@@ -39,10 +39,6 @@ const SlideList = [
 ]
 
 const PortfolioLanding = () => {
-    let title = 'Sobre mí',
-        description = 'Hola, me llamo Carlos Maldonado, soy profe de educación física y soy de Caracas, Venezuela.',
-        descriptionS2 = 'Fuí atleta de natación y aguas abiertas cuando chico y participe en carreras de calle de 5, 10 y 15k. Tengo más de 10 años de experiencia en el ámbito deportivo y del entrenamiento personalizado. Apasionado del Fútbol y amante del buen café.',
-        subdescription = '¡Pienso que el compromiso es la diferencia entre lo que fué, a lo que puedo ser!';
     return (
         <div className="active-dark">
             <Helmet pageTitle="Maldonado Training" />
@@ -77,7 +73,7 @@ const PortfolioLanding = () => {
             {/* Start mission Area */}
             <div id="mission" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
-                    <div className="container bg_image--mission">
+                    <div className="container bg_image--mission" alt="prueba ">
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
@@ -97,8 +93,8 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2 className="title">El Beneficio de tener un entrenador personal.</h2>
-                                    <p>El Personal Trainer, es ese puente que te ayudará a hacer realidad ese cambio fisico que tanto quieres; a través de una planificación bien elaborada en base a tus objetivos y requerimientos basicos.</p>
+                                    <h2 className="title">El Beneficio de tener un <stronge>entrenador personal</stronge> .</h2>
+                                    <p>El <stronge>Personal Trainer</stronge>, es ese puente que te ayudará a hacer realidad ese cambio fisico que tanto quieres; a través de una <stronge>planificación</stronge> bien elaborada en base a tus objetivos y requerimientos basicos.</p>
                                 </div>
                             </div>
                         </div>
@@ -116,21 +112,21 @@ const PortfolioLanding = () => {
                                     <div className="about-inner inner ">
                                         <div className="section-title">
                                             <br></br>
-                                            <h2 className="title text-center">{title}</h2>
+                                            <h2 className="title text-center">Sobre mí</h2>
                                             <br></br>
                                             <br></br>
-                                            <p className="description">{description}</p>
+                                            <p className="description">Hola, me llamo Carlos <stronge>Maldonado</stronge>, soy profe de educación física y soy de Caracas, Venezuela.</p>
                                             <br></br>
-                                            <p className="description">{descriptionS2}</p>
+                                            <p className="description">Fuí atleta de natación y aguas abiertas cuando chico y participe en carreras de calle de 5, 10 y 15k. Tengo más de 10 años de experiencia en el ámbito deportivo y del entrenamiento personalizado. Apasionado del Fútbol y amante del buen café.</p>
                                             <br></br>
                                             <br></br>
-                                            <p className="description text-center">{subdescription}</p>
+                                            <p className="description text-center">¡Pienso que el compromiso es la diferencia entre lo que fué, a lo que puedo ser!</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.webp" alt="About Images" />
+                                        <img className="w-100" src="/assets/images/about/about-8.webp" alt="About Images, Carlos Maldonado, Entrenador Personal, Personal Training" />
                                     </div>
                                 </div>
                             </div>

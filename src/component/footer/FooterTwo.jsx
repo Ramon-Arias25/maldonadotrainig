@@ -22,7 +22,7 @@ const FooterTwo = () => {
                         <div className="inner text-center">
                             <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a href={`${val.link}`} target="blank" >{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
@@ -30,8 +30,8 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text text-center">
-                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la">Powered by CaribeIT.</a></p>
-                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la">"Tus ideas y nuestro talento".</a></p>
+                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la" target="blank" >Powered by CaribeIT.</a></p>
+                                <p><a href="https://www.instagram.com/caribeit/?hl=es-la" target="blank" >"Tus ideas y nuestro talento"</a></p>
                             </div>
                         </div>
                     </div>

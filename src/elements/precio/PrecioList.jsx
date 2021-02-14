@@ -3,8 +3,8 @@ import React ,{ Component }from "react";
 const PrecioList = [
     {
         title: 'TRANQUI',
-        precioFull:'16.000$',
-        precioDescuento:'12.000$',
+        precioFull:'13.333$',
+        precioDescuento:'10.000$',
         frecuencia: '- 2 secciones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '',
@@ -14,8 +14,8 @@ const PrecioList = [
     },
     {
         title: 'MANIJA',
-        precioFull:'24.000$',
-        precioDescuento:'18.000$',
+        precioFull:'21.333$',
+        precioDescuento:'16.000$',
         frecuencia: '- 3 secciones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
@@ -25,8 +25,8 @@ const PrecioList = [
     },
     {
         title: 'A FULL',
-        precioFull:'28.000$',
-        precioDescuento:'21.000$',
+        precioFull:'24.933$',
+        precioDescuento:'18.700$',
         frecuencia: '- 3 secciones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
