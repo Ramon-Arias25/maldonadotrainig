@@ -17,10 +17,10 @@ import Footer from "../component/footer/FooterTwo";
                             <div className="col-lg-12">
                                 <div className="inner">
                                     <h1 className="title theme-gradient">404!</h1>
-                                    <h3 className="sub-title">Page not found</h3>
-                                    <span>The page you were looking for could not be found.</span>
+                                    <h3 className="sub-title">Página no encontrada</h3>
+                                    <span>No se pudo encontrar la página que buscaba.</span>
                                     <div className="error-button">
-                                        <a className="rn-button-style--2 btn-solid" href="/">Back To Homepage</a>
+                                        <a className="rn-button-style--2 btn-solid" href="/">Volver a Homepage</a>
                                     </div>
                                 </div>
                             </div>
