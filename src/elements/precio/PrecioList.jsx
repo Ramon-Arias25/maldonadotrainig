@@ -5,7 +5,7 @@ const PrecioList = [
         title: 'TRANQUI',
         precioFull:'13.333$',
         precioDescuento:'10.000$',
-        frecuencia: '- 2 secciones por semana',
+        frecuencia: '- 2 sesiones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '',
         incluye2: '',
@@ -16,7 +16,7 @@ const PrecioList = [
         title: 'MANIJA',
         precioFull:'21.333$',
         precioDescuento:'16.000$',
-        frecuencia: '- 3 secciones por semana',
+        frecuencia: '- 3 sesiones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
         incluye2: '',
@@ -27,7 +27,7 @@ const PrecioList = [
         title: 'A FULL',
         precioFull:'24.933$',
         precioDescuento:'18.700$',
-        frecuencia: '- 3 secciones por semana',
+        frecuencia: '- 3 sesiones por semana',
         incluye0: '- 1 sesión nutricional con medición antropometrica',
         incluye1: '- 1 bebida isotonica por sesión de entrenamiento',
         incluye2: '- 1 sesión Kinesiólogica',
@@ -63,7 +63,7 @@ class ServiceThree extends Component{
                                         <h2 className="title text-center">{val.precioDescuento}</h2>
                                         <div className="text-center">
                                             <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp">
-                                                <span>Escribíme</span>
+                                                <span>Escribime</span>
                                                 <i className="fa fa-whatsapp whatsapp-icon"></i>
                                             </a>
                                         </div>
