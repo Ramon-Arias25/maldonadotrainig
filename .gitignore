@@ -2,3 +2,5 @@ node_modules/*
 build/*
 product-backlog.txt
 debug.log
+*.log
+.vccode/*
