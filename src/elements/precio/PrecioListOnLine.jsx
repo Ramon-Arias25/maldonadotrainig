@@ -2,37 +2,37 @@ import React ,{ Component }from "react";
 
 const PrecioListIndividual = [
     {
-        title: 'TRANQUI',
-        precioFull:'18.666,67$',
-        precioDescuento:'14.000$',
-        frecuencia: '- 8 clases por mes',
-        incluye0: '(2 por semana)',
+        title: 'PLANI 1',
+        precioFull:'8.000$',
+        precioDescuento:'6.000$',
+        frecuencia: '',
+        incluye0: '- Planificación de entrenamiento mensual',
         incluye1: '- 1 sesión nutricional',
         incluye2: '',
         nulo: '',
-        whatsapp:'https://clck.ru/TtqZF'
+        whatsapp:'https://clck.ru/Ttqvn'
     },
     {
-        title: 'MANIJA',
-        precioFull:'24.000$',
-        precioDescuento:'18.000$',
-        frecuencia: '- 12 clases por mes',
-        incluye0: '(3 por semana)',
+        title: 'PLANI 3',
+        precioFull:'16.000$',
+        precioDescuento:'12.000$',
+        frecuencia: '',
+        incluye0: '- Macrociclo Deportivo por 3 meses',
         incluye1: '- 1 sesión nutricional con medición antropometrica',
         incluye2: '',
         nulo: '',
-        whatsapp:'https://clck.ru/TtqdR'
+        whatsapp:'https://clck.ru/TtqyZ'
     },
     {
-        title: 'A FULL',
-        precioFull:'29.333$',
-        precioDescuento:'22.000$',
-        frecuencia: '- 16 clases por mes',
-        incluye0: '(4 por semana)',
-        incluye1: '- 1 sesión nutricional con medición antropometrica',
-        incluye2: '- 1 Recovery sesion',
+        title: 'PLANI 6',
+        precioFull:'24.000$',
+        precioDescuento:'18.000$',
+        frecuencia: '',
+        incluye0: '- Macrociclo Deportivo por 6 meses',
+        incluye1: '- 2 sesiones de nutrición + medición antropometrica',
+        incluye2: '',
         nulo: '',
-        whatsapp:'https://clck.ru/TtqhX'
+        whatsapp:'https://clck.ru/TtrCM'
     }
 ]
 
@@ -43,6 +43,7 @@ class ServiceThree extends Component{
 
         return(
             <React.Fragment>
+                <div>
                 <div className="row mr--0 ml--0">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
@@ -70,6 +71,18 @@ class ServiceThree extends Component{
                             </a>
                         </div>
                     ))}
+                </div>
+                <div className="service service__style--2 subservices">
+                    <div className="content">
+                    <h3 className="title text-center">Aclaraciones:</h3>
+                        <br></br>
+                        <br></br>
+                        <p className="text-price-end" >- Cada sesión de entrenamiento tiene una hora de duración</p>
+                        <p className="text-price-end" >- Con el valor del abono del plan que elijas disfrutaras de los beneficios que este incluye por un mes.</p>
+                        <p className="text-price-end" >- Los entrenamientos podrán ser realizados en parques al aire libre, en gimnasios, o en domicilios si las condiciones lo permiten.</p>
+                        <p className="text-price-end" >- Todos los planes presenciales individuales incluyen una bebida deportiva por sesión de entrenamiento</p>
+                    </div>
+                </div>
                 </div>
             </React.Fragment>
         )

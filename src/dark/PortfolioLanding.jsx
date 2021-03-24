@@ -7,6 +7,8 @@ import Helmet from "../component/common/Helmet";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import PrecioList from "../elements/precio/PrecioList";
+import PrecioListParejas from "../elements/precio/PrecioListParejas";
+import PrecioListOnLine from "../elements/precio/PrecioListOnLine";
 import Testimonial from "../elements/testimonial/Testimonial"
 
 const SlideList = [
@@ -93,8 +95,8 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2 className="title">El Beneficio de tener un <stronge>entrenador personal</stronge> .</h2>
-                                    <p>El <stronge>Personal Trainer</stronge>, es ese puente que te ayudará a hacer realidad ese cambio físico que tanto quieres; a través de una <stronge>planificación</stronge> bien elaborada en base a tus objetivos y requerimientos basicos.</p>
+                                    <h2 className="title">El Beneficio de tener un <strong>entrenador personal</strong> .</h2>
+                                    <p>El <strong>Personal Trainer</strong>, es ese puente que te ayudará a hacer realidad ese cambio físico que tanto quieres; a través de una <strong>planificación</strong> bien elaborada en base a tus objetivos y requerimientos basicos.</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +117,7 @@ const PortfolioLanding = () => {
                                             <h2 className="title text-center">Sobre mí</h2>
                                             <br></br>
                                             <br></br>
-                                            <p className="description">Hola, me llamo Carlos <stronge>Maldonado</stronge>, soy profe de educación física y soy de Caracas, Venezuela.</p>
+                                            <p className="description">Hola, me llamo Carlos <strong>Maldonado</strong>, soy profe de educación física y soy de Caracas, Venezuela.</p>
                                             <br></br>
                                             <p className="description">Fui atleta de natación y aguas abiertas cuando chico y participe en carreras de calle de 5, 10 y 15k. Tengo más de 10 años de experiencia en el ámbito deportivo y del entrenamiento personalizado. Apasionado del Fútbol y amante del buen café.</p>
                                             <br></br>
@@ -163,9 +165,40 @@ const PortfolioLanding = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row align-items-end bg-color-opacity">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
+                                    <h3 className="title">PROMO INDIVIDUALES</h3>
+                                </div>
+                            </div>
+                        </div>
                         <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <PrecioList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                            <div className="col-lg-12 bg-color-opacity">
+                                <PrecioList item="3" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                            </div>
+                        </div>
+                        <div className="row align-items-end bg-color-opacity">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
+                                    <h3 className="title">PROMO PAREJAS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row creative-service">
+                            <div className="col-lg-12 bg-color-opacity">
+                                <PrecioListParejas item="2" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                            </div>
+                        </div>
+                        <div className="row align-items-end bg-color-opacity">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
+                                    <h3 className="title">PROMO ON LINE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row creative-service">
+                            <div className="col-lg-12 bg-color-opacity">
+                                <PrecioListOnLine item="3" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
                             </div>
                         </div>
                         <div className="col-lg-12">

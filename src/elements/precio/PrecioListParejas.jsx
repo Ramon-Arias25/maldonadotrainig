@@ -1,50 +1,38 @@
 import React ,{ Component }from "react";
 
-const PrecioListIndividual = [
+const PrecioListParejas = [
     {
-        title: 'TRANQUI',
-        precioFull:'18.666,67$',
-        precioDescuento:'14.000$',
-        frecuencia: '- 8 clases por mes',
-        incluye0: '(2 por semana)',
-        incluye1: '- 1 sesión nutricional',
+        title: 'DOSxDOS',
+        precioFull:'21.333$',
+        precioDescuento:'16.000$',
+        frecuencia: '- 8 clases por mes (2 por semana)',
+        incluye0: '- Hidratación Deportiva',
+        incluye1: '',
         incluye2: '',
         nulo: '',
-        whatsapp:'https://clck.ru/TtqZF'
+        whatsapp:'https://clck.ru/Ttqpa'
     },
     {
-        title: 'MANIJA',
-        precioFull:'24.000$',
-        precioDescuento:'18.000$',
-        frecuencia: '- 12 clases por mes',
-        incluye0: '(3 por semana)',
-        incluye1: '- 1 sesión nutricional con medición antropometrica',
+        title: 'DOSxTRES',
+        precioFull:'32.000$',
+        precioDescuento:'24.000$',
+        frecuencia: '- 12 clases por mes (3 por semana)',
+        incluye0: '- Hidratación Deportiva',
+        incluye1: '- 1 Recovery sesión por persona.',
         incluye2: '',
         nulo: '',
-        whatsapp:'https://clck.ru/TtqdR'
-    },
-    {
-        title: 'A FULL',
-        precioFull:'29.333$',
-        precioDescuento:'22.000$',
-        frecuencia: '- 16 clases por mes',
-        incluye0: '(4 por semana)',
-        incluye1: '- 1 sesión nutricional con medición antropometrica',
-        incluye2: '- 1 Recovery sesion',
-        nulo: '',
-        whatsapp:'https://clck.ru/TtqhX'
+        whatsapp:'https://clck.ru/Ttqrx'
     }
 ]
-
 class ServiceThree extends Component{
     render(){
         const {column} = this.props;
-        const ServiceContent = PrecioListIndividual.slice(0 , this.props.item);
+        const ServiceContentParejas = PrecioListParejas.slice(0 , this.props.item);
 
         return(
             <React.Fragment>
-                <div className="row mr--0 ml--0">
-                    {ServiceContent.map( (val , i) => (
+                <div className="row justify-content-center mr--0 ml--0">
+                    {ServiceContentParejas.map( (val , i) => (
                         <div className={`${column}`} key={i}>
                             <a href={val.whatsapp}  target= "blank">
                                 <div className="service service__style--2 bg-color-darkGray">
