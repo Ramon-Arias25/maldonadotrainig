@@ -1,4 +1,5 @@
 import React ,{ Component }from "react";
+import {FaWhatsapp} from 'react-icons/fa';
 
 const PrecioListIndividual = [
     {
@@ -62,8 +63,7 @@ class ServiceThree extends Component{
                                         <h2 className="title text-center">{val.precioDescuento}</h2>
                                         <div className="text-center">
                                             <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp">
-                                                <span>Escribime</span>
-                                                <i className="fa fa-whatsapp whatsapp-icon"></i>
+                                                <span>Escribime <FaWhatsapp/> </span>
                                             </a>
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ class ServiceThree extends Component{
                         <br></br>
                         <br></br>
                         <p className="text-price-end" >- Cada sesión de entrenamiento tiene una hora de duración</p>
-                        <p className="text-price-end" >- Con el valor del abono del plan que elijas disfrutaras de los beneficios que este incluye por un mes.</p>
+                        {/* <p className="text-price-end" >- Con el valor del abono del plan que elijas disfrutaras de los beneficios que este incluye por un mes.</p> */}
                         <p className="text-price-end" >- Los entrenamientos podrán ser realizados en parques al aire libre, en gimnasios, o en domicilios si las condiciones lo permiten.</p>
                         <p className="text-price-end" >- Todos los planes presenciales individuales incluyen una bebida deportiva por sesión de entrenamiento</p>
                     </div>

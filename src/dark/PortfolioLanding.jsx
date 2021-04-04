@@ -168,7 +168,7 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
-                                    <h3 className="title">PROMO INDIVIDUALES</h3>
+                                    <h3 className="title">PROMOS INDIVIDUALES</h3>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
-                                    <h3 className="title">PROMO PAREJAS</h3>
+                                    <h3 className="title">PROMOS PAREJAS</h3>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +192,7 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end bg-color-opacity">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center service-style--3 mt--50 mb--50 mb_sm--0">
-                                    <h3 className="title">PROMO ON LINE</h3>
+                                    <h3 className="title">PROMOS ON LINE</h3>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <h2 className="end-text">¡No dejes que otro te cuente la historia, salí y escribí la tuya!</h2>
+                            <h2 className="end-text">El cambio físico que tanto deseas comienza aquí</h2>
                         </div>
                     </div>
                 </div>

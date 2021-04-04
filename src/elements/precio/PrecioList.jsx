@@ -1,4 +1,5 @@
 import React ,{ Component }from "react";
+import {FaWhatsapp} from 'react-icons/fa';
 
 const PrecioListIndividual = [
     {
@@ -61,8 +62,7 @@ class ServiceThree extends Component{
                                         <h2 className="title text-center">{val.precioDescuento}</h2>
                                         <div className="text-center">
                                             <a href= {val.whatsapp} target="blank" className = "rn-button-style--3 btn-primary--wsp whatsapp">
-                                                <span>Escribime</span>
-                                                <i className="fa fa-whatsapp whatsapp-icon"></i>
+                                                <span>Escribime <FaWhatsapp/> </span>
                                             </a>
                                         </div>
                                     </div>
