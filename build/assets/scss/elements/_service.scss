@@ -211,7 +211,8 @@
     }
 }
 .whatsapp {
-  display:block;
+  display:flex;
+  align-items:center;
   width:75%;
   height:80%;
   bottom:40px;
@@ -220,11 +221,14 @@
   color:#ffffff;
   border-radius:50px;
   text-align:center;
-  font-size:50px;
+  font-size:22px;
   z-index:100;
   margin: auto auto;
   padding: 5px;
   margin-bottom: 15px;
+  &svg{
+    font-size: 40px;
+  }
 }
 .whatsapp-icon {
   font-size:50px;
@@ -270,7 +274,7 @@ a {
     &.rn-button-style--3 {
         padding: 5px !important;
         color: #c6c9d8;
-        font-size: 16px;
+        //font-size: 22px;
         border-radius:50px;
         text-transform: uppercase;
         letter-spacing: 2px;
