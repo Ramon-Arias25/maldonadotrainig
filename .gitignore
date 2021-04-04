@@ -3,4 +3,3 @@ build/*
 product-backlog.txt
 debug.log
 *.log
-.vccode/*
