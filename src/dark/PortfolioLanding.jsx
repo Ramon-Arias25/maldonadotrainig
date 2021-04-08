@@ -160,8 +160,9 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">PLANES</h2>
-                                    <p className="text-price">Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
-                                    <p>¡Ya que al mejorar esta capacidad, mejoraríamos todas las demás!</p>
+                                    {/* <p className="text-price">Si bien cada plan de entrenamiento es elaborado de manera personalizada, en base a los objetivos y requerimientos básicos de cada persona, todos tienen como prioridad el aumento de la fuerza en general.</p>
+                                    <p>¡Ya que al mejorar esta capacidad, mejoraríamos todas las demás!</p> */}
+                                    <p>El cambio físico que tanto deseas comienza aquí</p>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +203,7 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <h2 className="end-text">El cambio físico que tanto deseas comienza aquí</h2>
+                            <h2 className="end-text">¡No dejes que otro te cuente la historia, salí y escribí la tuya!</h2>
                         </div>
                     </div>
                 </div>
